@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataLayer.Repository
 {
+    //This is repo class
     public class StudentRepo : IStudentRepo
     {
         private readonly AppDbContext _context;
